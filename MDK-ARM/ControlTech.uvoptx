@@ -152,22 +152,6 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>44</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>..\Src\app_main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
           <LineNumber>32</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
@@ -182,7 +166,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>2</Number>
+          <Number>1</Number>
           <Type>0</Type>
           <LineNumber>36</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -198,7 +182,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>3</Number>
+          <Number>2</Number>
           <Type>0</Type>
           <LineNumber>37</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -214,7 +198,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>4</Number>
+          <Number>3</Number>
           <Type>0</Type>
           <LineNumber>50</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -230,7 +214,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>5</Number>
+          <Number>4</Number>
           <Type>0</Type>
           <LineNumber>51</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -246,7 +230,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>6</Number>
+          <Number>5</Number>
           <Type>0</Type>
           <LineNumber>52</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -262,7 +246,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>7</Number>
+          <Number>6</Number>
           <Type>0</Type>
           <LineNumber>56</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -278,7 +262,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>8</Number>
+          <Number>7</Number>
           <Type>0</Type>
           <LineNumber>57</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -294,7 +278,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>9</Number>
+          <Number>8</Number>
           <Type>0</Type>
           <LineNumber>63</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -310,7 +294,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>10</Number>
+          <Number>9</Number>
           <Type>0</Type>
           <LineNumber>69</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -326,7 +310,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>11</Number>
+          <Number>10</Number>
           <Type>0</Type>
           <LineNumber>71</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -342,7 +326,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>12</Number>
+          <Number>11</Number>
           <Type>0</Type>
           <LineNumber>74</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -358,7 +342,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>13</Number>
+          <Number>12</Number>
           <Type>0</Type>
           <LineNumber>76</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -374,7 +358,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>14</Number>
+          <Number>13</Number>
           <Type>0</Type>
           <LineNumber>45</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -390,9 +374,57 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>15</Number>
+          <Number>14</Number>
           <Type>0</Type>
           <LineNumber>43</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>startup_stm32f103xb.s</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>15</Number>
+          <Type>0</Type>
+          <LineNumber>44</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>startup_stm32f103xb.s</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>16</Number>
+          <Type>0</Type>
+          <LineNumber>43</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\Src\app_main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>17</Number>
+          <Type>0</Type>
+          <LineNumber>44</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -643,30 +675,6 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c</PathWithFileName>
-      <FilenameWithoutPath>stm32f1xx_hal_adc.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>3</GroupNumber>
-      <FileNumber>15</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c</PathWithFileName>
-      <FilenameWithoutPath>stm32f1xx_hal_adc_ex.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>3</GroupNumber>
-      <FileNumber>16</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
       <PathWithFileName>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c</PathWithFileName>
       <FilenameWithoutPath>stm32f1xx_hal.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -674,7 +682,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>17</FileNumber>
+      <FileNumber>15</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -686,7 +694,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>18</FileNumber>
+      <FileNumber>16</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -698,7 +706,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>19</FileNumber>
+      <FileNumber>17</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -710,7 +718,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>20</FileNumber>
+      <FileNumber>18</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -722,7 +730,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>21</FileNumber>
+      <FileNumber>19</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -734,7 +742,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>22</FileNumber>
+      <FileNumber>20</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -746,7 +754,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>23</FileNumber>
+      <FileNumber>21</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -758,7 +766,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>24</FileNumber>
+      <FileNumber>22</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -770,7 +778,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>25</FileNumber>
+      <FileNumber>23</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -782,7 +790,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>26</FileNumber>
+      <FileNumber>24</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -794,7 +802,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>27</FileNumber>
+      <FileNumber>25</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -806,7 +814,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>28</FileNumber>
+      <FileNumber>26</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -826,7 +834,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>4</GroupNumber>
-      <FileNumber>29</FileNumber>
+      <FileNumber>27</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -846,7 +854,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>30</FileNumber>
+      <FileNumber>28</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -858,7 +866,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>31</FileNumber>
+      <FileNumber>29</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -870,7 +878,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>32</FileNumber>
+      <FileNumber>30</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -882,7 +890,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>33</FileNumber>
+      <FileNumber>31</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -894,7 +902,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>34</FileNumber>
+      <FileNumber>32</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -906,7 +914,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>35</FileNumber>
+      <FileNumber>33</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -918,7 +926,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>36</FileNumber>
+      <FileNumber>34</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -930,7 +938,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>37</FileNumber>
+      <FileNumber>35</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -942,7 +950,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>38</FileNumber>
+      <FileNumber>36</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -954,7 +962,7 @@
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>39</FileNumber>
+      <FileNumber>37</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
