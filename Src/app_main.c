@@ -19,8 +19,6 @@ static void led_mode_white(void*);
 static TaskHandle_t led_white_mode_task_handle;
 static void led_mode_rainbow(void*);
 static TaskHandle_t led_rainbow_mode_task_handle;
-// static void led_mode3(void*);
-// static TaskHandle_t led_mode3_task_handle;
 
 // 刷新LED灯颜色
 static void flush_leds(uint32_t d1, uint32_t d2, uint32_t d3);
@@ -42,6 +40,7 @@ void app_main()
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);
 
   __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_1, 500);
   __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_2, 500);
@@ -144,6 +143,7 @@ static void led_mode_rainbow(void* args) {
  * @param args 
  */
 static void key_task(void* args) {
+  char mode = 0;
   while (1) {
     vTaskDelay(pdMS_TO_TICKS(10));
     // 按键 0
@@ -153,6 +153,13 @@ static void key_task(void* args) {
     // 按键 1
     KEY_EVENT(KEY1_GPIO_Port, KEY1_Pin, {
       led_change_mode(COLOR_MODE_RAINBOW_MODE);
+      mode = !mode;
+      __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_4, (mode ? 800 : 0));
+    });
+    // 按键3 
+    KEY_EVENT(KEY3_GPIO_Port, KEY3_Pin, {
+      //mode = !mode;
+      //__HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_4, (mode ? 800 : 0));
     });
   }
 }
